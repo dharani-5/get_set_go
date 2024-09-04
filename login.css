@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    display: 100vh;
+    background-color: skyblue;
+    background-image: radial-gradient(whitesmoke , skyblue);
+    background-size: cover;
+    background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   display: 100vh;
+} */
+
+
+/* body{
+    font-size:50px;
+    min-height: 100vh;
+    background-image: radial-gradient(whitesmoke , skyblue);
+
+} */
+
+/* .heading{
+    text-align: center;
+    font-family: 'Black Ops One', system-ui;
+    margin-top: 20px;
+    background-image: url('13.jpg');
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 100px;
+}*/
+
+
+html{
+    display: 100vh;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.background{
+    height: 100vh;
+    background-image: url('13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.caption{
+    text-align: right;
+}
+
+.text{
+   position: absolute;
+   top: 6%;
+   text-align: center;
+   left:30%;
+}
+
+.caption{
+    /* text-align:right; */
+    font-size: 50px;
+    /* margin-right: 10px; */
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+} 
+
+img{
+    height: 100px;
+}
+
+.one{
+    position: absolute;
+    left: -100px;
+    top: 270px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.two{
+    position: absolute;
+    right: -100px;
+    top: 270px;
+}
+
+.three{
+    position: absolute;
+    left : -100px;
+    top: 470px;
+}
+
+.four{
+    position: absolute;
+    right: -100px;
+    top:470px
+}
+
+
+
+
+
+
+
+
+
+

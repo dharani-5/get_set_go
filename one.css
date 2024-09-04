@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.background{
+    height: 100vh;
+    background-image: url('9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    position: fixed;
+    /* top: 0%; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.heading{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: "Miltonian", serif;
+    font-size: 50px;  
+    color: rgb(29, 30, 31);
+    background-color:rgba(245, 245, 245, 0.556); 
+}
+
+.JANUARY{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; ;
+}
+
+/* .jan_thailand{
+    position: absolute;
+    height: 150px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+    top: 270px;
+    left: 200px;
+}
+
+.p_thailand{
+    position: absolute;
+    top: 270px;
+    left: 450px;
+    width: 500px;
+    margin: 10px;
+}
+
+.t_one{
+    
+} */
+
+.thailand{
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    text-decoration: none;
+}
+
+.p_thailand{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 35px;
+    color: black;
+}
+
+button{
+    background-color: rgba(245, 245, 245, 0.321);
+    border: 1px solid black;
+}
+
+.argetina{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    text-decoration: none;
+}
+
+.p_argentina{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.NewZealand{
+    position: absolute;
+    top: 720px;
+    left: 300px;
+    text-decoration: none;
+}
+
+.p_NewZealand{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 40px;
+    color: black;
+}
+
+.Australia{
+    position: absolute;
+    top: 940px;
+    left: 300px;
+    text-decoration: none;
+}
+
+.p_Australia{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 40px;
+    color: black;
+}
+
+.india{
+    position: absolute;
+    top: 1160px;
+    left: 300px;
+    text-decoration: none;
+}
+
+.p_india{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 40px;
+    color: black;
+}
+
+.feb{
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; ;
+}
+
+.brazil{
+    position: absolute;
+    top: 1520px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_brazil{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+.Italy{
+    position: absolute;
+    top: 1740px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_Italy{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+.Spain{
+    position: absolute;
+    top: 1960px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_Spain{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+.march{
+    position: absolute;
+    top: 2180px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; ;
+}
+
+.Netherlands{
+    position: absolute;
+    top: 2300px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_Netherlands{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+.Indonesia{
+    position: absolute;
+    top: 2520px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_Indonesia{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+.SouthAfrica{
+    position: absolute;
+    top: 2740px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_SouthAfrica{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+.april{
+    position: absolute;
+    top: 2960px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; ;
+}
+
+.Morocco{
+    position: absolute;
+    top: 3080px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_morocco{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.Japan{
+    position: absolute;
+    top: 3300px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_Japan{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 30px;
+    color: black;
+}
+
+.may{
+    position: absolute;
+    top: 3520px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.portugal{
+    position: absolute;
+    top: 3620px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_portugal{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.greece{
+    position: absolute;
+    top: 3840px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_greece{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.june{
+    position: absolute;
+    top: 4060px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.iceland{
+    position: absolute;
+    top: 4160px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_iceland{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.costa{
+    position: absolute;
+    top: 4380px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_costa{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.july{
+    position: absolute;
+    top: 4600px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.tanzania{
+    position: absolute;
+    top: 4720px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_tanzania{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.peru{
+    position: absolute;
+    top: 4940px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_peru{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.august{
+    position: absolute;
+    top: 5160px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.scotland{
+    position: absolute;
+    top: 5280px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_scotland{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.indonesia1{
+    position: absolute;
+    top: 5500px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_indonesiaa{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.september{
+    position: absolute;
+    top: 5720px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.southkorea{
+    position: absolute;
+    top: 5840px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_southkorea{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.southafrica1{
+    position: absolute;
+    top: 6060px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_southafrica1{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+
+.october{
+    position: absolute;
+    top: 6280px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.croatia{
+    position: absolute;
+    top: 6400px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_crotia{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.srilanka{
+    position: absolute;
+    top: 6620px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_srilanka{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.november{
+    position: absolute;
+    top: 6840px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.cambodia{
+    position: absolute;
+    top: 6960px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_cambodia{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.mexico{
+    position: absolute;
+    top: 7180px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_mexico{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.december{
+    position: absolute;
+    top: 7400px;
+    left: 100px;
+    font-size: 50px;
+    font-family: "Miltonian", serif; 
+}
+
+.egypt{
+    position: absolute;
+    top: 7520px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_egypt{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
+.austria{
+    position: absolute;
+    top: 7740px;
+    left: 300px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding-bottom: 80px;
+}
+
+.p_austria{
+    text-align: left;
+    width: 800px;
+    margin: 10px;
+    margin-top: 50px;
+    color: black;
+}
+
